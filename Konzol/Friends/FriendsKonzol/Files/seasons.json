@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "number_of_episodes": 24,
+    "releasedate": "1994-09-22"
+  },
+  {
+    "id": 2,
+    "number_of_episodes": 24,
+    "releasedate": "1995-09-21"
+  },
+  {
+    "id": 3,
+    "number_of_episodes": 25,
+    "releasedate": "1996-09-19"
+  },
+  {
+    "id": 4,
+    "number_of_episodes": 24,
+    "releasedate": "1997-09-25"
+  },
+  {
+    "id": 5,
+    "number_of_episodes": 24,
+    "releasedate": "1998-09-24"
+  },
+  {
+    "id": 6,
+    "number_of_episodes": 25,
+    "releasedate": "1999-09-23"
+  },
+  {
+    "id": 7,
+    "number_of_episodes": 24,
+    "releasedate": "2000-10-12"
+  },
+  {
+    "id": 8,
+    "number_of_episodes": 24,
+    "releasedate": "2001-09-27"
+  },
+  {
+    "id": 9,
+    "number_of_episodes": 24,
+    "releasedate": "2002-09-26"
+  },
+  {
+    "id": 10,
+    "number_of_episodes": 18,
+    "releasedate": "2003-09-25"
+  }
+]

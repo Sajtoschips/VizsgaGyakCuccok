@@ -1,0 +1,46 @@
+﻿<Window x:Class="Tanosvenyek_GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tanosvenyek_GUI"
+        mc:Ignorable="d"
+        Title="Tanösvények" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.7*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Label Content="Város:" VerticalAlignment="Center"/>
+            <ComboBox x:Name="telepules_CBX" Width="200" Height="30" ItemsSource="{Binding telepulesek}" DisplayMemberPath="nev" SelectedIndex="0" VerticalContentAlignment="Center" SelectionChanged="telepules_CBX_SelectionChanged"/>
+        </StackPanel>
+        <DataGrid x:Name="adatok_DG" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding Utvonalak}" SelectionChanged="DataGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Width="*" Binding="{Binding azon}"/>
+                <DataGridTextColumn Header="Név" Width="2*" Binding="{Binding nev}"/>
+                <DataGridTextColumn Header="Hossz (km)" Width="*" Binding="{Binding hossz}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel.Resources>
+                <Style TargetType="Label">
+                    <Setter Property="FontWeight" Value="Bold"/>
+                </Style>
+            </StackPanel.Resources>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Idő:"/>
+                <Label Content="{Binding SelectedUt.ido}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Állomások száma:"/>
+                <Label Content="{Binding SelectedUt.allomas}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Vezetés igen/nem:"/>
+                <Label Content="{Binding SelectedUt.vezetes_szoveg}"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

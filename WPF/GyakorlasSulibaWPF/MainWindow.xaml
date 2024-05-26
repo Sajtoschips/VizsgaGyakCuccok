@@ -1,0 +1,38 @@
+﻿<Window x:Class="GyakorlasSulibaWPf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GyakorlasSulibaWPf"
+        mc:Ignorable="d"
+        Title="Autók" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Label Content="Tulajdonos:" />
+            <ComboBox x:Name="name_CBX" Height="25" Width="250" VerticalContentAlignment="Center"  ItemsSource="{Binding Owners}" DisplayMemberPath="name" SelectionChanged="name_CBX_SelectionChanged" SelectedItem="{Binding SelOwner, Mode=OneWayToSource}" SelectedIndex="0"/>
+        </StackPanel>
+        <DataGrid Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True" x:Name="data_DG">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Width="0.5*" Binding="{Binding id}"/>
+                <DataGridTextColumn Header="Regisztráció" Width="*" Binding="{Binding registration_date, StringFormat='{}{0:yyyy.MM.dd}'}"/>
+                <DataGridTextColumn Header="Gyártó" Width="*" Binding="{Binding brand}"/>
+                <DataGridTextColumn Header="Típus" Width="*" Binding="{Binding model}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Id:" FontWeight="Bold"/>
+                <TextBlock Text="{Binding SelOwner.id}" VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Lakcím:" FontWeight="Bold"/>
+                <TextBlock Text="{Binding SelOwner.address}" VerticalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

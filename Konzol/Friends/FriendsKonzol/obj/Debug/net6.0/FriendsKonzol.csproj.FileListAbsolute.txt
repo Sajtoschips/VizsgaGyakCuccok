@@ -1,0 +1,16 @@
+C:\Users\vidaz\Desktop\Vizsgara készülés!\Wpf\Konzol\Friends\FriendsKonzol\bin\Debug\net6.0\FriendsKonzol.exe
+C:\Users\vidaz\Desktop\Vizsgara készülés!\Wpf\Konzol\Friends\FriendsKonzol\bin\Debug\net6.0\Files\episodes.json
+C:\Users\vidaz\Desktop\Vizsgara készülés!\Wpf\Konzol\Friends\FriendsKonzol\bin\Debug\net6.0\Files\seasons.json
+C:\Users\vidaz\Desktop\Vizsgara készülés!\Wpf\Konzol\Friends\FriendsKonzol\bin\Debug\net6.0\FriendsKonzol.deps.json
+C:\Users\vidaz\Desktop\Vizsgara készülés!\Wpf\Konzol\Friends\FriendsKonzol\bin\Debug\net6.0\FriendsKonzol.runtimeconfig.json
+C:\Users\vidaz\Desktop\Vizsgara készülés!\Wpf\Konzol\Friends\FriendsKonzol\bin\Debug\net6.0\FriendsKonzol.dll
+C:\Users\vidaz\Desktop\Vizsgara készülés!\Wpf\Konzol\Friends\FriendsKonzol\bin\Debug\net6.0\FriendsKonzol.pdb
+C:\Users\vidaz\Desktop\Vizsgara készülés!\Wpf\Konzol\Friends\FriendsKonzol\obj\Debug\net6.0\FriendsKonzol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vidaz\Desktop\Vizsgara készülés!\Wpf\Konzol\Friends\FriendsKonzol\obj\Debug\net6.0\FriendsKonzol.AssemblyInfoInputs.cache
+C:\Users\vidaz\Desktop\Vizsgara készülés!\Wpf\Konzol\Friends\FriendsKonzol\obj\Debug\net6.0\FriendsKonzol.AssemblyInfo.cs
+C:\Users\vidaz\Desktop\Vizsgara készülés!\Wpf\Konzol\Friends\FriendsKonzol\obj\Debug\net6.0\FriendsKonzol.csproj.CoreCompileInputs.cache
+C:\Users\vidaz\Desktop\Vizsgara készülés!\Wpf\Konzol\Friends\FriendsKonzol\obj\Debug\net6.0\FriendsKonzol.dll
+C:\Users\vidaz\Desktop\Vizsgara készülés!\Wpf\Konzol\Friends\FriendsKonzol\obj\Debug\net6.0\refint\FriendsKonzol.dll
+C:\Users\vidaz\Desktop\Vizsgara készülés!\Wpf\Konzol\Friends\FriendsKonzol\obj\Debug\net6.0\FriendsKonzol.pdb
+C:\Users\vidaz\Desktop\Vizsgara készülés!\Wpf\Konzol\Friends\FriendsKonzol\obj\Debug\net6.0\FriendsKonzol.genruntimeconfig.cache
+C:\Users\vidaz\Desktop\Vizsgara készülés!\Wpf\Konzol\Friends\FriendsKonzol\obj\Debug\net6.0\ref\FriendsKonzol.dll

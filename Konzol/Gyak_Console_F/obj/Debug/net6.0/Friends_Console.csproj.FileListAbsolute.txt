@@ -1,0 +1,16 @@
+C:\Users\BenceSzilard\Desktop\FriendsVizsga\Konzol\Friends_Console\bin\Debug\net6.0\Friends_Console.exe
+C:\Users\BenceSzilard\Desktop\FriendsVizsga\Konzol\Friends_Console\bin\Debug\net6.0\episodes.json
+C:\Users\BenceSzilard\Desktop\FriendsVizsga\Konzol\Friends_Console\bin\Debug\net6.0\seasons.json
+C:\Users\BenceSzilard\Desktop\FriendsVizsga\Konzol\Friends_Console\bin\Debug\net6.0\Friends_Console.deps.json
+C:\Users\BenceSzilard\Desktop\FriendsVizsga\Konzol\Friends_Console\bin\Debug\net6.0\Friends_Console.runtimeconfig.json
+C:\Users\BenceSzilard\Desktop\FriendsVizsga\Konzol\Friends_Console\bin\Debug\net6.0\Friends_Console.dll
+C:\Users\BenceSzilard\Desktop\FriendsVizsga\Konzol\Friends_Console\bin\Debug\net6.0\Friends_Console.pdb
+C:\Users\BenceSzilard\Desktop\FriendsVizsga\Konzol\Friends_Console\obj\Debug\net6.0\Friends_Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BenceSzilard\Desktop\FriendsVizsga\Konzol\Friends_Console\obj\Debug\net6.0\Friends_Console.AssemblyInfoInputs.cache
+C:\Users\BenceSzilard\Desktop\FriendsVizsga\Konzol\Friends_Console\obj\Debug\net6.0\Friends_Console.AssemblyInfo.cs
+C:\Users\BenceSzilard\Desktop\FriendsVizsga\Konzol\Friends_Console\obj\Debug\net6.0\Friends_Console.csproj.CoreCompileInputs.cache
+C:\Users\BenceSzilard\Desktop\FriendsVizsga\Konzol\Friends_Console\obj\Debug\net6.0\Friends_Console.dll
+C:\Users\BenceSzilard\Desktop\FriendsVizsga\Konzol\Friends_Console\obj\Debug\net6.0\refint\Friends_Console.dll
+C:\Users\BenceSzilard\Desktop\FriendsVizsga\Konzol\Friends_Console\obj\Debug\net6.0\Friends_Console.pdb
+C:\Users\BenceSzilard\Desktop\FriendsVizsga\Konzol\Friends_Console\obj\Debug\net6.0\Friends_Console.genruntimeconfig.cache
+C:\Users\BenceSzilard\Desktop\FriendsVizsga\Konzol\Friends_Console\obj\Debug\net6.0\ref\Friends_Console.dll
